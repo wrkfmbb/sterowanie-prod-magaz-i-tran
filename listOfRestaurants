@@ -1,0 +1,2070 @@
+{
+    "businesses": [
+        {
+            "id": "cJJZQu6zPuvFxx6XogvfEA",
+            "alias": "kurna-chata-wroc\u0142aw",
+            "name": "Kurna Chata",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/i_vBAsMx8TmqjSFtqzfgiQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kurna-chata-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 39,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.11302,
+                "longitude": 17.0318
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Odrza\u0144ska 17",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-113",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Odrza\u0144ska 17",
+                    "50-113 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713410668",
+            "display_phone": "+48 71 341 06 68",
+            "distance": 3179.293743783134
+        },
+        {
+            "id": "u7ec1UZ2vHyrJYOWYQdEyQ",
+            "alias": "st\u00f3\u0142-na-szwedzkiej-wroc\u0142aw",
+            "name": "St\u00f3\u0142 na Szwedzkiej",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CANk5Q4CfcwqDxCyVBqIpw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/st%C3%B3%C5%82-na-szwedzkiej-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                },
+                {
+                    "alias": "cookingclasses",
+                    "title": "Cooking Classes"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1100721306166,
+                "longitude": 16.9608206585407
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Szwedzka 17",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "54-401",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Szwedzka 17",
+                    "54-401 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48791240484",
+            "display_phone": "+48 791 240 484",
+            "distance": 2835.336400981384
+        },
+        {
+            "id": "8PvQaVuPBVt653KSE2eJbw",
+            "alias": "pierogarnia-stary-m\u0142yn-wroc\u0142aw",
+            "name": "Pierogarnia Stary M\u0142yn",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/D-j9tgllbTuHturzWaKDvQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pierogarnia-stary-m%C5%82yn-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 44,
+            "categories": [
+                {
+                    "alias": "pierogis",
+                    "title": "Pierogis"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.109154525992,
+                "longitude": 17.032247317791
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Rynek 26",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-101",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Rynek 26",
+                    "50-101 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713441415",
+            "display_phone": "+48 71 344 14 15",
+            "distance": 3430.552342273253
+        },
+        {
+            "id": "jFPQCGLM6A1w-Qt8NYBYeg",
+            "alias": "kebab-king-wroc\u0142aw",
+            "name": "Kebab King",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hckjmys3k8SkpV48fHj64w/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kebab-king-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "mideastern",
+                    "title": "Middle Eastern"
+                },
+                {
+                    "alias": "kebab",
+                    "title": "Kebab"
+                }
+            ],
+            "rating": 2.5,
+            "coordinates": {
+                "latitude": 51.1065392932194,
+                "longitude": 17.0318215245126
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. \u015awidnicka 26",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. \u015awidnicka 26",
+                    "Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713027003",
+            "display_phone": "+48 71 302 70 03",
+            "distance": 3579.9200400873733
+        },
+        {
+            "id": "p4tuzr3IkWL-QCMNkUG3FQ",
+            "alias": "\u017cyzna-wroc\u0142aw",
+            "name": "\u017byzna",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/raXi25yt4xdG-HhytL7w2A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/%C5%BCyzna-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.111841,
+                "longitude": 17.037388
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. No\u017cownicza 37",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "53-110",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. No\u017cownicza 37",
+                    "53-110 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48731292663",
+            "display_phone": "+48 731 292 663",
+            "distance": 3585.4564290694857
+        },
+        {
+            "id": "jRc0mUtOwWWA2gooMFma6Q",
+            "alias": "whiskey-in-the-jar-wroc\u0142aw",
+            "name": "Whiskey in the Jar",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/nLcKCjLupYYSFiThbMMtAg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/whiskey-in-the-jar-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 10,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "steak",
+                    "title": "Steakhouses"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.109233,
+                "longitude": 17.0319842
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Rynek 23-24",
+                "address2": null,
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-101",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Rynek 23-24",
+                    "50-101 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48503527531",
+            "display_phone": "+48 503 527 531",
+            "distance": 3410.472592336816
+        },
+        {
+            "id": "XknTf7mKJb3-hb6cIcOUSw",
+            "alias": "wie\u017ca-ci\u015bnie\u0144-wroc\u0142aw",
+            "name": "Wie\u017ca Ci\u015bnie\u0144",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/i1IhJr85stFXoz90JrtQwQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/wie%C5%BCa-ci%C5%9Bnie%C5%84-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.0853,
+                "longitude": 17.0175
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "ul. Sudecka 125A",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "53-128",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Sudecka 125A",
+                    "53-128 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713671929",
+            "display_phone": "+48 71 367 19 29",
+            "distance": 4934.033763899978
+        },
+        {
+            "id": "t_XaCdvm4P-476ddFhtXrw",
+            "alias": "pod-papugami-wroc\u0142aw",
+            "name": "Pod Papugami",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/vHgZ5fWiAoJOP_Jkz1juXw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pod-papugami-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1100388,
+                "longitude": 17.0312805
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "ul. Sukiennice 9A",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-169",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Sukiennice 9A",
+                    "50-169 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713439275",
+            "display_phone": "+48 71 343 92 75",
+            "distance": 3319.2582193818816
+        },
+        {
+            "id": "l8wk4fnTOdC8mdxWshvsXw",
+            "alias": "jadka-wroc\u0142aw",
+            "name": "Jadka",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/sUFsVgUpu0cwTeAyg2VrzA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/jadka-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1119804,
+                "longitude": 17.0285492
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Rze\u017anicza 24 / 25",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-132",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Rze\u017anicza 24 / 25",
+                    "50-132 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713436461",
+            "display_phone": "+48 71 343 64 61",
+            "distance": 3044.8779555143947
+        },
+        {
+            "id": "XshIRBN0g7E_3KxGGcDyeg",
+            "alias": "spi\u017c-wroc\u0142aw-2",
+            "name": "Spi\u017c",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/v-pOKdfMZWuwUzhToS1WjA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/spi%C5%BC-wroc%C5%82aw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 40,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1099968839736,
+                "longitude": 17.0311761273058
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Rynek Ratusz 2",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-106",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Rynek Ratusz 2",
+                    "50-106 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713447225",
+            "display_phone": "+48 71 344 72 25",
+            "distance": 3316.0596625682842
+        },
+        {
+            "id": "zIUQ2rdcgxpV2VLqAYoKAw",
+            "alias": "woo-thai-wroc\u0142aw",
+            "name": "Woo Thai",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/PahXBplVkCS60uW3gpcStw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/woo-thai-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1145142497531,
+                "longitude": 17.0665157586336
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Grunwaldzka 67",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-357",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Grunwaldzka 67",
+                    "50-357 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713210707",
+            "display_phone": "+48 71 321 07 07",
+            "distance": 5390.410697426662
+        },
+        {
+            "id": "zjU_CQvkaWhRFBhbTNNwTQ",
+            "alias": "konspira-wroc\u0142aw",
+            "name": "Konspira",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/edi10MOdwlYXrZ5FSf6HVA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/konspira-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "milkbars",
+                    "title": "Milk Bars"
+                },
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1091919,
+                "longitude": 17.0285206
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "pl. Solny 11",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "pl. Solny 11",
+                    "Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48796326600",
+            "display_phone": "+48 796 326 600",
+            "distance": 3216.7853906079026
+        },
+        {
+            "id": "zOdt8i5esre4pZlZe6Igcg",
+            "alias": "restauracja-pod-gryfami-wroc\u0142aw",
+            "name": "Restauracja Pod Gryfami",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/cn3UxMH6UjkzVfrgUGI75g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/restauracja-pod-gryfami-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 6,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1108027,
+                "longitude": 17.03067
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "ul. Rynek 2",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-106",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Rynek 2",
+                    "50-106 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713437927",
+            "display_phone": "+48 71 343 79 27",
+            "distance": 3237.232418936713
+        },
+        {
+            "id": "5NvVf_6O-bwf95wvzyIYDg",
+            "alias": "kuchnia-march\u00e9-wroc\u0142aw",
+            "name": "Kuchnia March\u00e9",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/N_AlBQfWjAKeDFlCYOZ0Mw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kuchnia-march%C3%A9-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 10,
+            "categories": [
+                {
+                    "alias": "buffets",
+                    "title": "Buffets"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.100991,
+                "longitude": 17.028591
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. \u015awidnicka 53",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-030",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. \u015awidnicka 53",
+                    "50-030 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713439565",
+            "display_phone": "+48 71 343 95 65",
+            "distance": 3839.3717668678432
+        },
+        {
+            "id": "YzeGtc5a9eri9GETUv0b8g",
+            "alias": "od-kuchni-wroc\u0142aw",
+            "name": "Od Kuchni",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/G4oclmAFoE_HcT98B8w0Cw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/od-kuchni-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.107633,
+                "longitude": 16.945196
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Graniczna 2",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "54-610",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Graniczna 2",
+                    "54-610 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "",
+            "display_phone": "",
+            "distance": 3873.7846292173426
+        },
+        {
+            "id": "7uGKk51zIhpdCr7TEVCCqQ",
+            "alias": "campo-wroc\u0142aw",
+            "name": "CAMPO",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WoNDbXzOaphGMLGNxNbGhA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/campo-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "steak",
+                    "title": "Steakhouses"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.10804,
+                "longitude": 17.0430199
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Podwale 83",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-449",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Podwale 83",
+                    "50-449 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48690040333",
+            "display_phone": "+48 690 040 333",
+            "distance": 4146.428976849862
+        },
+        {
+            "id": "gXLOqO69VgjdjpB_5To8NA",
+            "alias": "u-gruzina-wroc\u0142aw",
+            "name": "U Gruzina",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/czgBxBw4-qAEXRcTNvI5tw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/u-gruzina-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "georgian",
+                    "title": "Georgian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1128838822862,
+                "longitude": 17.0317620411515
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. No\u017cownicza 1",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-118",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. No\u017cownicza 1",
+                    "50-118 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48602601741",
+            "display_phone": "+48 602 601 741",
+            "distance": 3184.1981186989797
+        },
+        {
+            "id": "JVIHNSmmIs03LpTk288kqw",
+            "alias": "wilk-syty-wroc\u0142aw",
+            "name": "Wilk Syty",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ZZ6vrnkBP95DXW9giiinpQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/wilk-syty-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1208850241732,
+                "longitude": 17.0363862952205
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Trzebnicka 3",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-245",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Trzebnicka 3",
+                    "50-245 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48506562504",
+            "display_phone": "+48 506 562 504",
+            "distance": 3181.1138996780023
+        },
+        {
+            "id": "RAqVql9BXPe9W1Lt0SFglQ",
+            "alias": "olszewskiego-128-wroc\u0142aw",
+            "name": "Olszewskiego 128",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/bGPqGG6YhAgskCdkMr6G6g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/olszewskiego-128-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.10156,
+                "longitude": 17.109379
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "ul. Olszewskiego 128",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "51-648",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Olszewskiego 128",
+                    "51-648 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48530530918",
+            "display_phone": "+48 530 530 918",
+            "distance": 8672.279359656328
+        },
+        {
+            "id": "HN8KTdsw-8xH2ZlIXIKdNw",
+            "alias": "nigdy-nie-zapomn\u0119-wroc\u0142aw",
+            "name": "Nigdy Nie Zapomn\u0119",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/NTcDJpFjSceY_iUVmzuQbw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/nigdy-nie-zapomn%C4%99-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.0583263,
+                "longitude": 17.0129138
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Zwycieska 14F",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "53-033",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Zwycieska 14F",
+                    "53-033 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48607949468",
+            "display_phone": "+48 607 949 468",
+            "distance": 7736.404972620706
+        },
+        {
+            "id": "GbDu4hEl8Ibb6O6xr4yWCw",
+            "alias": "puenta-pub-a-restauracja-wroc\u0142aw",
+            "name": "Puenta Pub & Restauracja",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ZD15YWKNAPN_JonXEDMoaA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/puenta-pub-a-restauracja-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1007,
+                "longitude": 17.0265
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Bugus\u0142awskiego 33",
+                "address2": "Mi\u0119dzy Teatrem Polskim, a Urz\u0119dem Miasta",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-035",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Bugus\u0142awskiego 33",
+                    "Mi\u0119dzy Teatrem Polskim, a Urz\u0119dem Miasta",
+                    "50-035 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48504243282",
+            "display_phone": "+48 504 243 282",
+            "distance": 3767.8129699856304
+        },
+        {
+            "id": "rnUTAVTCLrX8pu-7D-dXhA",
+            "alias": "restauracja-agora-wroc\u0142aw-wroc\u0142aw",
+            "name": "Restauracja Agora Wroc\u0142aw",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/0AvP_jy6tOck6jaLbX1wSg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/restauracja-agora-wroc%C5%82aw-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1346599,
+                "longitude": 17.0205752
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "Serbska 5A",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "51-111",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Serbska 5A",
+                    "51-111 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48606200071",
+            "display_phone": "+48 606 200 071",
+            "distance": 2202.5492268116213
+        },
+        {
+            "id": "GOvQYSOdB6TBNpwHgQx3mQ",
+            "alias": "najadacze-wroc\u0142aw-2",
+            "name": "Najadacze",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_G0WpWait-7iRYSwv0R2_Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/najadacze-wroc%C5%82aw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                },
+                {
+                    "alias": "vegan",
+                    "title": "Vegan"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1118676,
+                "longitude": 17.036589
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. No\u017cownicza 40",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-147",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. No\u017cownicza 40",
+                    "50-147 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713445511",
+            "display_phone": "+48 71 344 55 11",
+            "distance": 3534.6070060208413
+        },
+        {
+            "id": "6oc5KuDwmlr2NUPXO2l1IA",
+            "alias": "mango-mama-rynek-wroc\u0142aw",
+            "name": "Mango Mama Rynek",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-oa94-wnqJRABv2vGT2pWw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/mango-mama-rynek-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                },
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1111,
+                "longitude": 17.02981
+            },
+            "transactions": [],
+            "location": {
+                "address1": "\u015awi\u0119tego Miko\u0142aja 78",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-125",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "\u015awi\u0119tego Miko\u0142aja 78",
+                    "50-125 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48535653692",
+            "display_phone": "+48 535 653 692",
+            "distance": 3178.6987609677203
+        },
+        {
+            "id": "PXOLmJl6aHOnXGmN5vGuJg",
+            "alias": "kofuku-wroc\u0142aw-2",
+            "name": "Kofuku",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/_oRzonAZEKG4vZED0SwwvQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/kofuku-wroc%C5%82aw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "sushi",
+                    "title": "Sushi Bars"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.0946603521876,
+                "longitude": 17.0185716685096
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Galeria Sky Tower",
+                "address2": "ul. Powsya\u0144\u0107ow \u015alaskich 95",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "53-332",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Galeria Sky Tower",
+                    "ul. Powsya\u0144\u0107ow \u015alaskich 95",
+                    "53-332 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48535206060",
+            "display_phone": "+48 535 206 060",
+            "distance": 4017.267116656557
+        },
+        {
+            "id": "RZCJujq3BPyUx3CiknUaDA",
+            "alias": "dw\u00f3r-polski-wroc\u0142aw-2",
+            "name": "Dw\u00f3r Polski",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Se2DaKLj4TgHkdgSnzRQJQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dw%C3%B3r-polski-wroc%C5%82aw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1105,
+                "longitude": 17.0304
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Rynek  5",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-106",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Rynek  5",
+                    "50-106 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713723415",
+            "display_phone": "+48 71 372 34 15",
+            "distance": 3239.9300615103975
+        },
+        {
+            "id": "UhcDZaEM5pGzBaEUX_DbTw",
+            "alias": "\u0142ubu-dubu-bistro-wroc\u0142aw",
+            "name": "\u0141ubu Dubu Bistro",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Jozus77ovnvezdwPSGWgkQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/%C5%82ubu-dubu-bistro-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "bistros",
+                    "title": "Bistros"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1127081291956,
+                "longitude": 17.0314093306661
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Odrza\u0144ska 24",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-114",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Odrza\u0144ska 24",
+                    "50-114 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48717904061",
+            "display_phone": "+48 71 790 40 61",
+            "distance": 3172.105377364871
+        },
+        {
+            "id": "kmtglULMSz7DR2SSbBmsZw",
+            "alias": "restauracja-darea-wroc\u0142aw",
+            "name": "Restauracja Darea",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5yEUbAs5TAFwBgmot1hQSA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/restauracja-darea-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1128387,
+                "longitude": 17.0343399
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Ku\u017anicza 43/45",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-138",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Ku\u017anicza 43/45",
+                    "50-138 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713435301",
+            "display_phone": "+48 71 343 53 01",
+            "distance": 3342.9355260941757
+        },
+        {
+            "id": "7iEHomANH4rJQnMRPgXM1Q",
+            "alias": "monster-cook-wroc\u0142aw",
+            "name": "Monster Cook",
+            "image_url": "",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/monster-cook-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "indpak",
+                    "title": "Indian"
+                },
+                {
+                    "alias": "pakistani",
+                    "title": "Pakistani"
+                },
+                {
+                    "alias": "asianfusion",
+                    "title": "Asian Fusion"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1015299,
+                "longitude": 17.0968899
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Olszewskiego 23",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "51-642",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Olszewskiego 23",
+                    "51-642 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48666020272",
+            "display_phone": "+48 666 020 272",
+            "distance": 7850.380309390534
+        },
+        {
+            "id": "geK04cngx-NGxElGSPfWUg",
+            "alias": "dinette-wroc\u0142aw-2",
+            "name": "Dinette",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/4RdLBYlgt153aHhmOwUJIw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dinette-wroc%C5%82aw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "bistros",
+                    "title": "Bistros"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.105789,
+                "longitude": 17.031892
+            },
+            "transactions": [],
+            "price": "$$$",
+            "location": {
+                "address1": "pl. Teatralny 8",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-051",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "pl. Teatralny 8",
+                    "50-051 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48502575145",
+            "display_phone": "+48 502 575 145",
+            "distance": 3636.3439603213787
+        },
+        {
+            "id": "YKZiN23l4iJ6YQuDToad_g",
+            "alias": "przedwojenna-wroclaw-2",
+            "name": "Przedwojenna",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iSMv22ycXvzavFMouBO7EA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/przedwojenna-wroclaw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 4,
+            "categories": [
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                },
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1110170304554,
+                "longitude": 17.030506263459
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. \u015bw. Miko\u0142aja 81",
+                "address2": "",
+                "address3": "",
+                "city": "Wroclaw",
+                "zip_code": "50-107",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. \u015bw. Miko\u0142aja 81",
+                    "50-107 Wroclaw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48791120525",
+            "display_phone": "+48 791 120 525",
+            "distance": 3214.715281519401
+        },
+        {
+            "id": "426nNwyOa4AJtcuX9uaDVA",
+            "alias": "restauracja-hp-park-plaza-wroc\u0142aw",
+            "name": "Restauracja HP Park Plaza",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0y8ZjluGUtYAVcSij4w62g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/restauracja-hp-park-plaza-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1174369,
+                "longitude": 17.0348451
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Hotel HP Park Plaza",
+                "address2": "ul. Boles\u0142awa Drobnera 11 / 13",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-257",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Hotel HP Park Plaza",
+                    "ul. Boles\u0142awa Drobnera 11 / 13",
+                    "50-257 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713208560",
+            "display_phone": "+48 71 320 85 60",
+            "distance": 3248.6423019320455
+        },
+        {
+            "id": "XdKpyGHIM91hGwWR0-Fikg",
+            "alias": "pizzeria-emostro-wroc\u0142aw-2",
+            "name": "Pizzeria Emostro",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Bc4e42GCk2lSIk5-jCzhAg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pizzeria-emostro-wroc%C5%82aw-2?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1003222,
+                "longitude": 16.9506282
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Hlaski 42A",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "54-608",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Hlaski 42A",
+                    "54-608 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713331786",
+            "display_phone": "+48 71 333 17 86",
+            "distance": 4096.475644039972
+        },
+        {
+            "id": "R9K6tOKrauQIMzBzJV4I1w",
+            "alias": "piec-na-szewskiej-wroc\u0142aw",
+            "name": "Piec na Szewskiej",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2ZRNCG2TC9spQiHBvGVg9g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/piec-na-szewskiej-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                },
+                {
+                    "alias": "vegetarian",
+                    "title": "Vegetarian"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1134692549948,
+                "longitude": 17.0360446258077
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Szewska 44-46",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-139",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Szewska 44-46",
+                    "50-139 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48669340467",
+            "display_phone": "+48 669 340 467",
+            "distance": 3421.132654361935
+        },
+        {
+            "id": "OiWXdXzES_16h6ss7QVaWQ",
+            "alias": "dobra-pizza-wroc\u0142aw",
+            "name": "Dobra Pizza",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/SAgCjknrj5vjo2b147No8Q/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/dobra-pizza-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "pizza",
+                    "title": "Pizza"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 51.1259384,
+                "longitude": 16.9724197
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Bulwar Ikara 13-15",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "54-130",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Bulwar Ikara 13-15",
+                    "54-130 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713518666",
+            "display_phone": "+48 71 351 86 66",
+            "distance": 1360.607810008795
+        },
+        {
+            "id": "-L7f1WNIfG2gXc6yEEcrZQ",
+            "alias": "krvn-wroc\u0142aw",
+            "name": "Krvn",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/BjDAEsNZeL-gX-LzEpeiMg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/krvn-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 8,
+            "categories": [
+                {
+                    "alias": "bistros",
+                    "title": "Bistros"
+                },
+                {
+                    "alias": "coffee",
+                    "title": "Coffee & Tea"
+                },
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1097261182901,
+                "longitude": 17.0234441757202
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. \u015aw. Antoniego 40/1",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-073",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. \u015aw. Antoniego 40/1",
+                    "50-073 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48881630495",
+            "display_phone": "+48 881 630 495",
+            "distance": 2903.0892470644494
+        },
+        {
+            "id": "KWE94c02hlkCNABxG5Qg2g",
+            "alias": "brasserie-27-wroclaw",
+            "name": "Brasserie 27",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/YoW6IFU18R96b7tbcXnEuQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/brasserie-27-wroclaw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "brasseries",
+                    "title": "Brasseries"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1082185894883,
+                "longitude": 17.0274791340407
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Kazimierza Wielkiego 27A",
+                "address2": "",
+                "address3": "",
+                "city": "Wroclaw",
+                "zip_code": "50-077",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Kazimierza Wielkiego 27A",
+                    "50-077 Wroclaw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713714471",
+            "display_phone": "+48 71 371 44 71",
+            "distance": 3226.7809163306124
+        },
+        {
+            "id": "gYTM4MSWExh0prFF0K5N4w",
+            "alias": "bernard-piwiarnia-restauracja-wroc\u0142aw",
+            "name": "Bernard Piwiarnia-Restauracja",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/_aZwgxAalwdLjkPSJtu5UA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bernard-piwiarnia-restauracja-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 14,
+            "categories": [
+                {
+                    "alias": "modern_european",
+                    "title": "Modern European"
+                },
+                {
+                    "alias": "czech",
+                    "title": "Czech"
+                },
+                {
+                    "alias": "beerbar",
+                    "title": "Beer Bar"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1099815,
+                "longitude": 17.0334606
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "ul. Rynek 35",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-102",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Rynek 35",
+                    "50-102 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713441054",
+            "display_phone": "+48 71 344 10 54",
+            "distance": 3446.480730942398
+        },
+        {
+            "id": "gC4yLsQW2z7Iu0qRoswY4g",
+            "alias": "umami-wroc\u0142aw",
+            "name": "Umami",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/n8FiKZTfw-FMpklgcUBDBQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/umami-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                },
+                {
+                    "alias": "pierogis",
+                    "title": "Pierogis"
+                }
+            ],
+            "rating": 3.5,
+            "coordinates": {
+                "latitude": 51.11109,
+                "longitude": 17.030974
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Rynek 60",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-116",
+                "country": "PL",
+                "state": "LU",
+                "display_address": [
+                    "ul. Rynek 60",
+                    "50-116 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48602660038",
+            "display_phone": "+48 602 660 038",
+            "distance": 3237.913416855017
+        },
+        {
+            "id": "r2GHv3nwivr9fORQN8aHHA",
+            "alias": "sakana-sushi-bar-wroc\u0142aw",
+            "name": "Sakana Sushi Bar",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ew4NqucqZ-TIeM089w0woQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sakana-sushi-bar-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "food",
+                    "title": "Food"
+                },
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1130348,
+                "longitude": 17.0316698
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "ul. Odrzanska  17/1a",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50113",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Odrzanska  17/1a",
+                    "50113 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713433710",
+            "display_phone": "+48 71 343 37 10",
+            "distance": 3170.5179616349305
+        },
+        {
+            "id": "QQ8Cu_JaC_H7gtA434xwjg",
+            "alias": "fc-nale\u015bniki-wroc\u0142aw",
+            "name": "FC Nale\u015bniki",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xS9LdcDLDjXi4Uutv75omg/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/fc-nale%C5%9Bniki-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 9,
+            "categories": [
+                {
+                    "alias": "creperies",
+                    "title": "Creperies"
+                },
+                {
+                    "alias": "french",
+                    "title": "French"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1111641,
+                "longitude": 17.0335693
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Ku\u017anicza 63 /  64",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-138",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Ku\u017anicza 63 /  64",
+                    "50-138 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48790387905",
+            "display_phone": "+48 790 387 905",
+            "distance": 3396.951494440685
+        },
+        {
+            "id": "HqWEWKw_4073WLz9Yn6bWw",
+            "alias": "bistro-kurzy-targ-wroc\u0142aw",
+            "name": "Bistro Kurzy Targ",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/hle55-YPzGv2C6gx1H2Jcw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/bistro-kurzy-targ-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 3,
+            "categories": [
+                {
+                    "alias": "bistros",
+                    "title": "Bistros"
+                },
+                {
+                    "alias": "bars",
+                    "title": "Bars"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1094980679644,
+                "longitude": 17.033943753373
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Kurzy Targ 3 / 2",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-121",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Kurzy Targ 3 / 2",
+                    "50-121 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48733270220",
+            "display_phone": "+48 733 270 220",
+            "distance": 3507.9196416364134
+        },
+        {
+            "id": "zr9Nql_yjukmn4vn58e0Tw",
+            "alias": "sushi-naka-naka-wroc\u0142aw",
+            "name": "Sushi Naka Naka",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/4p3MTHqLZKIqHcg70E1CcQ/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/sushi-naka-naka-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "japanese",
+                    "title": "Japanese"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1223,
+                "longitude": 16.99
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "ul. Legnicka 62",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-001",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Legnicka 62",
+                    "50-001 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713498521",
+            "display_phone": "+48 71 349 85 21",
+            "distance": 495.0309398972333
+        },
+        {
+            "id": "MZO_Yit-d866L_QxrtWYNg",
+            "alias": "chopper-bar-wroc\u0142aw",
+            "name": "Chopper Bar",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/nydvVYOJqjhkV03fOjWUDA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/chopper-bar-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 11,
+            "categories": [
+                {
+                    "alias": "tradamerican",
+                    "title": "American (Traditional)"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1113396,
+                "longitude": 17.0346203
+            },
+            "transactions": [],
+            "price": "$$",
+            "location": {
+                "address1": "ul. Kotlarska 42",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-151",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Kotlarska 42",
+                    "50-151 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713306554",
+            "display_phone": "+48 71 330 65 54",
+            "distance": 3439.341861621219
+        },
+        {
+            "id": "DCGupjADDAUdep1kvAXm8g",
+            "alias": "selfie-cafe-wroc\u0142aw",
+            "name": "Selfie Cafe",
+            "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/mBF6Y9bqC6bvwiFmjqgA0g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/selfie-cafe-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "cafes",
+                    "title": "Cafes"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1133471429965,
+                "longitude": 17.034679112358
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Ku\u017anicza 33 / 1A",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-115",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Ku\u017anicza 33 / 1A",
+                    "50-115 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48536945440",
+            "display_phone": "+48 536 945 440",
+            "distance": 3341.193278189014
+        },
+        {
+            "id": "0eOsTK6bX7AWWE7IuSx0ow",
+            "alias": "restauracja-przysta\u0144-wroc\u0142aw",
+            "name": "Restauracja Przysta\u0144",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/gVjy_XYANBGZJ0kxFaw-og/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/restauracja-przysta%C5%84-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 5,
+            "categories": [
+                {
+                    "alias": "wine_bars",
+                    "title": "Wine Bars"
+                },
+                {
+                    "alias": "italian",
+                    "title": "Italian"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.114776,
+                "longitude": 17.032684
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "ul. Ksi\u0119cia Witolda 2",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-202",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Ksi\u0119cia Witolda 2",
+                    "50-202 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48502130893",
+            "display_phone": "+48 502 130 893",
+            "distance": 3147.0938387066544
+        },
+        {
+            "id": "NHTw1hhcy2bn_OTkx40xYg",
+            "alias": "pha-tha-thai-wroc\u0142aw",
+            "name": "Pha Tha Thai",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/H-yaSTuSvnhSi8tHG9xb-g/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/pha-tha-thai-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 2,
+            "categories": [
+                {
+                    "alias": "thai",
+                    "title": "Thai"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 51.1120263692649,
+                "longitude": 17.0323732495308
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Wi\u0119zienna 5C",
+                "address2": "",
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-118",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Wi\u0119zienna 5C",
+                    "50-118 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48534798863",
+            "display_phone": "+48 534 798 863",
+            "distance": 3267.995693173239
+        },
+        {
+            "id": "CzJ5PoA72wKcWQBcg45rMg",
+            "alias": "chatka-przy-jatkach-wroc\u0142aw",
+            "name": "Chatka przy Jatkach",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/vmk8yG8ySjXFg1SYEl2OdA/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/chatka-przy-jatkach-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 13,
+            "categories": [
+                {
+                    "alias": "polish",
+                    "title": "Polish"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.112007,
+                "longitude": 17.031369
+            },
+            "transactions": [],
+            "price": "$",
+            "location": {
+                "address1": "ul. Odrza\u0144ska 7",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-113",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Odrza\u0144ska 7",
+                    "50-113 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48713427220",
+            "display_phone": "+48 71 342 72 20",
+            "distance": 3208.429950151446
+        },
+        {
+            "id": "yRbNPaErwrq8W_PAtBV4LA",
+            "alias": "stajnia-8a-wroc\u0142aw",
+            "name": "Stajnia 8a",
+            "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/CVYTPQSgo509yqnJkW5HEw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/stajnia-8a-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "restaurants",
+                    "title": "Restaurants"
+                },
+                {
+                    "alias": "pubs",
+                    "title": "Pubs"
+                },
+                {
+                    "alias": "bowling",
+                    "title": "Bowling"
+                },
+                {
+                    "alias": "poolhalls",
+                    "title": "Pool Halls"
+                }
+            ],
+            "rating": 4.0,
+            "coordinates": {
+                "latitude": 51.1178407,
+                "longitude": 17.044213
+            },
+            "transactions": [],
+            "location": {
+                "address1": "Sienkiewicza 8a",
+                "address2": null,
+                "address3": null,
+                "city": "Wroc\u0142aw",
+                "zip_code": "50-335",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "Sienkiewicza 8a",
+                    "50-335 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48601531010",
+            "display_phone": "+48 601 531 010",
+            "distance": 3790.729071100959
+        },
+        {
+            "id": "A9tTR7_1fHOsvnznGgHxbQ",
+            "alias": "panczo-wroc\u0142aw",
+            "name": "Panczo",
+            "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/qvEnrnw6RJ7nW3nSOkacJw/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/panczo-wroc%C5%82aw?adjust_creative=EY3374CznHHGhu9PYQaGnw&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=EY3374CznHHGhu9PYQaGnw",
+            "review_count": 1,
+            "categories": [
+                {
+                    "alias": "mexican",
+                    "title": "Mexican"
+                },
+                {
+                    "alias": "foodtrucks",
+                    "title": "Food Trucks"
+                }
+            ],
+            "rating": 5.0,
+            "coordinates": {
+                "latitude": 51.1036306632169,
+                "longitude": 17.0849626134918
+            },
+            "transactions": [],
+            "location": {
+                "address1": "ul. Wittiga 2",
+                "address2": "",
+                "address3": "",
+                "city": "Wroc\u0142aw",
+                "zip_code": "51-628",
+                "country": "PL",
+                "state": "DS",
+                "display_address": [
+                    "ul. Wittiga 2",
+                    "51-628 Wroc\u0142aw",
+                    "Poland"
+                ]
+            },
+            "phone": "+48794389836",
+            "display_phone": "+48 794 389 836",
+            "distance": 6991.917131504241
+        }
+    ],
+    "total": 273,
+    "region": {
+        "center": {
+            "longitude": 16.991729736328125,
+            "latitude": 51.12661752619192
+        }
+    }
+}
