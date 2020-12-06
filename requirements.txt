@@ -1,0 +1,3 @@
+PyQt5
+requests
+PyQt5-stubs

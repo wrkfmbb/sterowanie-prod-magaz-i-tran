@@ -1,0 +1,502 @@
+[
+    {
+        "Name": "Kurna Chata",
+        "Number": 1,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Odrzańska 17 50-113 Wrocław Poland",
+        "Latitude": 51.11302,
+        "Longitude": 17.0318,
+        "Phone": "+48 71 341 06 68"
+    },
+    {
+        "Name": "Pierogarnia Stary Młyn",
+        "Number": 2,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Rynek 26 50-101 Wrocław Poland",
+        "Latitude": 51.109154525992,
+        "Longitude": 17.032247317791,
+        "Phone": "+48 71 344 14 15"
+    },
+    {
+        "Name": "Giselle",
+        "Number": 3,
+        "Rating": 4.5,
+        "Price": "$$",
+        "Adress": "ul. Szewska 27 Wrocław Poland",
+        "Latitude": 51.1115297,
+        "Longitude": 17.0354657,
+        "Phone": "+48 600 454 818"
+    },
+    {
+        "Name": "Spiż",
+        "Number": 4,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Rynek Ratusz 2 50-106 Wrocław Poland",
+        "Latitude": 51.1099968839736,
+        "Longitude": 17.0311761273058,
+        "Phone": "+48 71 344 72 25"
+    },
+    {
+        "Name": "Cafe Central",
+        "Number": 5,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. św. Antoniego 10 50-073 Wrocław Poland",
+        "Latitude": 51.1089987,
+        "Longitude": 17.0260213,
+        "Phone": "+48 71 794 96 23"
+    },
+    {
+        "Name": "Zoo Wrocław",
+        "Number": 6,
+        "Rating": 5.0,
+        "Price": "0",
+        "Adress": "ul. Wróblewskiego 1-5 51-618 Wrocław Poland",
+        "Latitude": 51.104126,
+        "Longitude": 17.074197,
+        "Phone": "+48 71 348 30 24"
+    },
+    {
+        "Name": "Kuchnia Marché",
+        "Number": 7,
+        "Rating": 4.5,
+        "Price": "$$",
+        "Adress": "ul. Świdnicka 53 50-030 Wrocław Poland",
+        "Latitude": 51.100991,
+        "Longitude": 17.028591,
+        "Phone": "+48 71 343 95 65"
+    },
+    {
+        "Name": "Jadka",
+        "Number": 8,
+        "Rating": 5.0,
+        "Price": "0",
+        "Adress": "ul. Rzeźnicza 24 / 25 50-132 Wrocław Poland",
+        "Latitude": 51.1119804,
+        "Longitude": 17.0285492,
+        "Phone": "+48 71 343 64 61"
+    },
+    {
+        "Name": "Krvn",
+        "Number": 9,
+        "Rating": 5.0,
+        "Price": "$",
+        "Adress": "ul. Św. Antoniego 40/1 50-073 Wrocław Poland",
+        "Latitude": 51.1097261182901,
+        "Longitude": 17.0234441757202,
+        "Phone": "+48 881 630 495"
+    },
+    {
+        "Name": "Vega Bar Wegański",
+        "Number": 10,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Rynek 27A 50-108 Wrocław Poland",
+        "Latitude": 51.109818,
+        "Longitude": 17.032684,
+        "Phone": "+48 71 344 39 34"
+    },
+    {
+        "Name": "Stół na Szwedzkiej",
+        "Number": 11,
+        "Rating": 5.0,
+        "Price": "$$",
+        "Adress": "ul. Szwedzka 17 54-401 Wrocław Poland",
+        "Latitude": 51.1100721306166,
+        "Longitude": 16.9608206585407,
+        "Phone": "+48 791 240 484"
+    },
+    {
+        "Name": "Piec na Szewskiej",
+        "Number": 12,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Szewska 44-46 50-139 Wrocław Poland",
+        "Latitude": 51.1134692549948,
+        "Longitude": 17.0360446258077,
+        "Phone": "+48 669 340 467"
+    },
+    {
+        "Name": "Rynek we Wrocławiu",
+        "Number": 13,
+        "Rating": 4.5,
+        "Price": "0",
+        "Adress": "ul. Rynek 50-101 Wrocław Poland",
+        "Latitude": 51.109458,
+        "Longitude": 17.03133,
+        "Phone": ""
+    },
+    {
+        "Name": "Moaburger",
+        "Number": 14,
+        "Rating": 4.5,
+        "Price": "0",
+        "Adress": "Pl. Solny 10 50-061 Wrocław Poland",
+        "Latitude": 51.1093731139349,
+        "Longitude": 17.0286392793059,
+        "Phone": "+48 71 330 74 82"
+    },
+    {
+        "Name": "Bernard Piwiarnia-Restauracja",
+        "Number": 15,
+        "Rating": 4.0,
+        "Price": "$$$$",
+        "Adress": "ul. Rynek 35 50-102 Wrocław Poland",
+        "Latitude": 51.1099815,
+        "Longitude": 17.0334606,
+        "Phone": "+48 71 344 10 54"
+    },
+    {
+        "Name": "Pod Papugami",
+        "Number": 16,
+        "Rating": 4.5,
+        "Price": "$$$",
+        "Adress": "ul. Sukiennice 9A 50-169 Wrocław Poland",
+        "Latitude": 51.1100388,
+        "Longitude": 17.0312805,
+        "Phone": "+48 71 343 92 75"
+    },
+    {
+        "Name": "Ogród Botaniczny Uniwersytetu Wrocławskiego",
+        "Number": 17,
+        "Rating": 4.5,
+        "Price": "0",
+        "Adress": "ul. Henryka Sienkiewicza 23 50-335 Wrocław Poland",
+        "Latitude": 51.116762,
+        "Longitude": 17.047484,
+        "Phone": "+48 71 322 59 57"
+    },
+    {
+        "Name": "Chatka przy Jatkach",
+        "Number": 18,
+        "Rating": 4.0,
+        "Price": "$",
+        "Adress": "ul. Odrzańska 7 50-113 Wrocław Poland",
+        "Latitude": 51.112007,
+        "Longitude": 17.031369,
+        "Phone": "+48 71 342 72 20"
+    },
+    {
+        "Name": "Konspira",
+        "Number": 19,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "pl. Solny 11 Wrocław Poland",
+        "Latitude": 51.1091919,
+        "Longitude": 17.0285206,
+        "Phone": "+48 796 326 600"
+    },
+    {
+        "Name": "Restauracja pod Fredrą",
+        "Number": 20,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Rynek 1 50-116 Wrocław Poland",
+        "Latitude": 51.109793,
+        "Longitude": 17.031611,
+        "Phone": "+48 71 341 13 35"
+    },
+    {
+        "Name": "La Scala",
+        "Number": 21,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Rynek 38 52-102 Wrocław Poland",
+        "Latitude": 51.1101494,
+        "Longitude": 17.0335293,
+        "Phone": "+48 71 372 53 94"
+    },
+    {
+        "Name": "Folgujemy",
+        "Number": 22,
+        "Rating": 5.0,
+        "Price": "0",
+        "Adress": "ul. Kniaziewicza 16 50-455 Wrocław Poland",
+        "Latitude": 51.10189,
+        "Longitude": 17.0424,
+        "Phone": "+48 537 552 023"
+    },
+    {
+        "Name": "Bułka z masłem",
+        "Number": 23,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Włodkowica 8A 50-072 Wrocław Poland",
+        "Latitude": 51.1093559,
+        "Longitude": 17.023734,
+        "Phone": "+48 663 730 537"
+    },
+    {
+        "Name": "Dwór Polski",
+        "Number": 24,
+        "Rating": 4.5,
+        "Price": "0",
+        "Adress": "Rynek  5 50-106 Wrocław Poland",
+        "Latitude": 51.1105,
+        "Longitude": 17.0304,
+        "Phone": "+48 71 372 34 15"
+    },
+    {
+        "Name": "Whiskey in the Jar",
+        "Number": 25,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Rynek 23-24 50-101 Wrocław Poland",
+        "Latitude": 51.109233,
+        "Longitude": 17.0319842,
+        "Phone": "+48 503 527 531"
+    },
+    {
+        "Name": "Piwnica Świdnicka",
+        "Number": 26,
+        "Rating": 3.5,
+        "Price": "$$$",
+        "Adress": "ul. Rynek Rathusz 1 50-107 Wrocław Poland",
+        "Latitude": 51.109493,
+        "Longitude": 17.032001,
+        "Phone": "+48 71 369 95 10"
+    },
+    {
+        "Name": "FC Naleśniki",
+        "Number": 27,
+        "Rating": 4.0,
+        "Price": "$",
+        "Adress": "ul. Kuźnicza 63 /  64 50-138 Wrocław Poland",
+        "Latitude": 51.1111641,
+        "Longitude": 17.0335693,
+        "Phone": "+48 790 387 905"
+    },
+    {
+        "Name": "Vincent",
+        "Number": 28,
+        "Rating": 4.5,
+        "Price": "$$",
+        "Adress": "ul. Oławska 8A / 1 00-357 Wrocław Poland",
+        "Latitude": 51.10875,
+        "Longitude": 17.03474,
+        "Phone": "+48 519 799 745"
+    },
+    {
+        "Name": "Szynkarnia",
+        "Number": 29,
+        "Rating": 4.0,
+        "Price": "$",
+        "Adress": "ul. św. Antoniego 15 50-073 Wrocław Poland",
+        "Latitude": 51.1093402761831,
+        "Longitude": 17.0253069698811,
+        "Phone": "+48 733 808 134"
+    },
+    {
+        "Name": "Sakana Sushi Bar",
+        "Number": 30,
+        "Rating": 4.5,
+        "Price": "$$$$",
+        "Adress": "ul. Odrzanska  17/1a 50113 Wrocław Poland",
+        "Latitude": 51.1130348,
+        "Longitude": 17.0316698,
+        "Phone": "+48 71 343 37 10"
+    },
+    {
+        "Name": "Bazylia",
+        "Number": 31,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "Kuźnicza 42 50-138 Wrocław Poland",
+        "Latitude": 51.1136,
+        "Longitude": 17.0347,
+        "Phone": "+48 71 375 20 65"
+    },
+    {
+        "Name": "Masala Grill & Bar",
+        "Number": 32,
+        "Rating": 4.5,
+        "Price": "$$$",
+        "Adress": "ul. Kuźnicza 3-5 50-138 Wrocław Poland",
+        "Latitude": 51.1106911,
+        "Longitude": 17.0338192,
+        "Phone": "+48 71 302 69 49"
+    },
+    {
+        "Name": "Chopper Bar",
+        "Number": 33,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Kotlarska 42 50-151 Wrocław Poland",
+        "Latitude": 51.1113396,
+        "Longitude": 17.0346203,
+        "Phone": "+48 71 330 65 54"
+    },
+    {
+        "Name": "Restauracja Pod Gryfami",
+        "Number": 34,
+        "Rating": 4.5,
+        "Price": "$$$",
+        "Adress": "ul. Rynek 2 50-106 Wrocław Poland",
+        "Latitude": 51.1108027,
+        "Longitude": 17.03067,
+        "Phone": "+48 71 343 79 27"
+    },
+    {
+        "Name": "Charlotte",
+        "Number": 35,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. św. Antoniego 2 / 4 50-073 Wrocław Poland",
+        "Latitude": 51.108628,
+        "Longitude": 17.026826,
+        "Phone": "+48 608 646 966"
+    },
+    {
+        "Name": "Polish Lody",
+        "Number": 36,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "pl. Bema 3/1B 50-265 Wrocław Poland",
+        "Latitude": 51.1165598,
+        "Longitude": 17.0421019,
+        "Phone": ""
+    },
+    {
+        "Name": "Bar Polski Setka",
+        "Number": 37,
+        "Rating": 4.0,
+        "Price": "$",
+        "Adress": "ul. Kazimierza Wielkiego 50A 50-070 Wrocław Poland",
+        "Latitude": 51.1077754385318,
+        "Longitude": 17.031205966273,
+        "Phone": "+48 71 715 60 60"
+    },
+    {
+        "Name": "Osiem Misek",
+        "Number": 38,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Borowska 116 53-649 Wrocław Poland",
+        "Latitude": 51.0843,
+        "Longitude": 17.03585,
+        "Phone": "+48 725 166 236"
+    },
+    {
+        "Name": "Targowa - Craft Beer and Food",
+        "Number": 39,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Piaskowa 17 50-158 Wrocław Poland",
+        "Latitude": 51.1127308613695,
+        "Longitude": 17.0397369191051,
+        "Phone": "+48 533 330 551"
+    },
+    {
+        "Name": "Cafe Targowa",
+        "Number": 40,
+        "Rating": 5.0,
+        "Price": "$",
+        "Adress": "ul. Piaskowa 17 50-158 Wrocław Poland",
+        "Latitude": 51.1127820924096,
+        "Longitude": 17.0397960513035,
+        "Phone": "+48 536 591 286"
+    },
+    {
+        "Name": "Wok In",
+        "Number": 41,
+        "Rating": 4.5,
+        "Price": "0",
+        "Adress": "ul. Sukiennice 1 / 2 50-107 Wrocław Poland",
+        "Latitude": 51.1098395758881,
+        "Longitude": 17.0324832201004,
+        "Phone": "+48 603 081 779"
+    },
+    {
+        "Name": "Kontynuacja",
+        "Number": 42,
+        "Rating": 4.0,
+        "Price": "$$",
+        "Adress": "ul. Ofiar Oświęcimskich 17 Wrocław Poland",
+        "Latitude": 51.1084865,
+        "Longitude": 17.0315431,
+        "Phone": "+48 792 400 084"
+    },
+    {
+        "Name": "Frankie's",
+        "Number": 43,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Wita Stwosza 57 50-149 Wroclaw Poland",
+        "Latitude": 51.1104890024114,
+        "Longitude": 17.0340970810279,
+        "Phone": "+48 725 388 700"
+    },
+    {
+        "Name": "Piekarnia",
+        "Number": 44,
+        "Rating": 5.0,
+        "Price": "$",
+        "Adress": "Pl. Bema 4 50-265 Wrocław Poland",
+        "Latitude": 51.1166306,
+        "Longitude": 17.0421104,
+        "Phone": "+48 71 322 48 40"
+    },
+    {
+        "Name": "Beef Burger",
+        "Number": 45,
+        "Rating": 5.0,
+        "Price": "$",
+        "Adress": "ul. Zwycięska 14CE / A 53-033 Wrocław Poland",
+        "Latitude": 51.0585690199036,
+        "Longitude": 17.0112481713295,
+        "Phone": "+48 71 715 91 31"
+    },
+    {
+        "Name": "Restauracja Przystań",
+        "Number": 46,
+        "Rating": 4.0,
+        "Price": "$$$$",
+        "Adress": "ul. Księcia Witolda 2 50-202 Wrocław Poland",
+        "Latitude": 51.114776,
+        "Longitude": 17.032684,
+        "Phone": "+48 502 130 893"
+    },
+    {
+        "Name": "Najadacze",
+        "Number": 47,
+        "Rating": 5.0,
+        "Price": "0",
+        "Adress": "ul. Nożownicza 40 50-147 Wrocław Poland",
+        "Latitude": 51.1118676,
+        "Longitude": 17.036589,
+        "Phone": "+48 71 344 55 11"
+    },
+    {
+        "Name": "Bema Café",
+        "Number": 48,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Bolesława Drobnera 38 50-257 Wrocław Poland",
+        "Latitude": 51.1180476647243,
+        "Longitude": 17.0403303244097,
+        "Phone": "+48 71 322 02 12"
+    },
+    {
+        "Name": "Lot Kury",
+        "Number": 49,
+        "Rating": 5.0,
+        "Price": "0",
+        "Adress": "ul. Ofiar Oświęcimskich 17 50-069 Wrocław Poland",
+        "Latitude": 51.10841,
+        "Longitude": 17.03168,
+        "Phone": "+48 668 772 551"
+    },
+    {
+        "Name": "Gniazdo",
+        "Number": 50,
+        "Rating": 4.5,
+        "Price": "$",
+        "Adress": "ul. Świdnicka 36 Wrocław Poland",
+        "Latitude": 51.105361,
+        "Longitude": 17.031586,
+        "Phone": "+48 790 363 686"
+    }
+]
