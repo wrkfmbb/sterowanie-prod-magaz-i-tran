@@ -1,149 +1,142 @@
 # -*- coding: utf-8 -*-
 
-from PyQt5.QtWidgets import *
-from math import *
+from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox, QLabel, QLineEdit, QComboBox, QListWidget, QPushButton, \
+    QGridLayout
 import sys
 import requests
 import json
-import random
-import sqlite3
+from math import sqrt, pi, cos
+from controllers.db_connection import get_session
+from db_objects.objects import Restaurant, Meal, ReservedTables, Location, Order
 
-con = sqlite3.connect('database/KLIENT_SERW.db')
-con.row_factory = sqlite3.Row
-cur = con.cursor()
+# TODO: there is only one user, should be more.
+#  Add posibility to reserve more than one table or delete this feature.
 
-id = 0
-
-with open('data/restaurants.json', 'r', encoding='utf-8') as json_file:
-    restaurants = json.load(json_file)
-
-with open('data/listOfRestaurants3.json', 'r', encoding='utf-8') as json_file:
-    restaurantsYelp = json.load(json_file)
 
 App = QApplication(sys.argv)
 window = QWidget()
 
 
-def clearMenu():
+def clear_menu():
     combo_box_menu.clear()
 
 
-def Clicked():
+def make_order():
+    restaurant_name = get_order_restaurant_name()
+
+    if restaurant_name in listWidget.item(listWidget.currentRow()).text():
+        session = get_session()
+        restaurant = session.query(Restaurant).filter(Restaurant.name == restaurant_name).one()
+        modify_available_tables(restaurant, restaurant_name, session)
+
+        lat_user, lng_user = get_user_location()
+        location = save_user_location(lat_user, lng_user, session)
+        save_order(location, restaurant, session)
+
+        distance = calculate_distance(lat_user, lng_user, restaurant)
+
+        QMessageBox.information(window, "Informacja o rezerwacji",
+                                f'Zarezerwowano\n'
+                                f'{listWidget.item(listWidget.currentRow()).text()}\n' 
+                                f'Odległośc do restauracji: {str(round(distance, 2))} km')
+
+
+def get_order_restaurant_name():
     row = listWidget.item(listWidget.currentRow()).text()
     rowName = row.split("\n")
     rowNameNumber = rowName[0]
-    restName = rowNameNumber[7:]
-
-    if restName in listWidget.item(listWidget.currentRow()).text():
-        cur.execute('SELECT IloscStol,SzerokoscGeo, DlugoscGeo from REST WHERE Nazwa=?', (restName,))
-
-        varRest = cur.fetchone()
-        stolik = varRest[0]
-        latRest = varRest[1]
-
-        lngRest = varRest[2]
-        newStolik = stolik - 1
-        cur.execute('UPDATE REST SET IloscStol=? WHERE NAZWA=?', (int(newStolik), restName))
-
-        cur.execute('SELECT SzerokoscGeo, DlugoscGeo from ZAMOWIENIE WHERE ID=?', (str(1)))
-        varUser = cur.fetchone()
-        latUser = varUser[0]
-        lngUser = varUser[1]
-
-        distance = sqrt((float(latRest) - float(latUser)) ** 2 + (
-                    cos((float(latUser) * pi) / 180) * (float(lngRest) - float(lngUser))) ** 2) * (40075.704 / 360)
-
-        con.commit()
-
-        QMessageBox.information(window, "Informacja o rezerwacji", "Zarezerwowano" + "\n" + listWidget.item(
-            listWidget.currentRow()).text() + "\n" + "Odległośc do restauracji: " + str(round(distance, 2)) + " km")
+    restaurant_name = rowNameNumber[7:]
+    return restaurant_name
 
 
-def RandRest(tmpList):
-    while len(tmpList) < 27:
-        NumberR = random.randint(1, 27)
-        if NumberR not in tmpList:
-            tmpList.append(NumberR)
-    return tmpList
+def calculate_distance(lat_user, lng_user, restaurant):
+    latRest = restaurant.location.latitude
+    lngRest = restaurant.location.longitude
+    distance = sqrt((float(latRest) - float(lat_user)) ** 2 + (
+            cos((float(lat_user) * pi) / 180) * (float(lngRest) - float(lng_user))) ** 2) * (40075.704 / 360)
+    return distance
 
 
-def showRest():
+# TODO: user_id is hardcoded change if there will be more users
+def save_order(location, restaurant, session):
+    order = Order(nr_of_reservations=1, user_id=1, user_location_id=location.id,
+                  kitchen_type_id=restaurant.kitchen_type.id)
+    session.add(order)
+    session.commit()
+
+
+def save_user_location(lat_user, lng_user, session):
+    location = Location(latitude=lat_user, longitude=lng_user)
+    session.add(location)
+    session.commit()
+    return location
+
+
+def modify_available_tables(restaurant, restaurant_name, session):
+    reserved_tables = session.query(ReservedTables) \
+        .filter(ReservedTables.restaurant.has(name=restaurant_name)).one()
+    nr_of_all_tables = restaurant.nr_of_tables
+    nr_of_reserved_tables = reserved_tables.total_nr_of_reservations
+    # TODO: if there will be posibility to reserve more than 1 table then change condition and increment value
+    if nr_of_all_tables - nr_of_reserved_tables > 0:
+        reserved_tables.total_nr_of_reservations += 1
+        session.commit()
+
+
+def show_restaurants():
     listWidget.clear()
     content = str(combo_box.currentText())
-    cur.execute('SELECT NAZWA,Ocena,IloscStol FROM REST WHERE Kuchnia=?', (content,))
-    restDatabase = cur.fetchall()
-    for rest in restDatabase:
-        listWidget.addItem(
-            "Nazwa: " + rest['NAZWA'] + "\n" + "Ocena: " + str(rest['Ocena']) + "\n" + "Ilość wolnych stolików: " + str(
-                rest['IloscStol']))
+    session = get_session()
+
+    restaurants = session.query(Restaurant).filter(Restaurant.kitchen_type.has(type=content)).all()
+    for rest in restaurants:
+        reserved_tables = session.query(ReservedTables).filter(ReservedTables.restaurant.has(name=rest.name)).one()
+
+        nr_of_all_tables = rest.nr_of_tables
+        nr_of_reserved_tables = reserved_tables.total_nr_of_reservations
+
+        listWidget.addItem(f'Nazwa: {rest.name}\n' +
+                           f'Ocena: {str(rest.rate)}\n' +
+                           f'Ilość wolnych stolików: {str(nr_of_all_tables - nr_of_reserved_tables)}')
 
 
-def Trigger():
-    listOfRandnumber = []
-    RandRest(listOfRandnumber)
-    for i in range(len(listOfRandnumber)):
-        for rest in restaurantsYelp:
-            if listOfRandnumber[i] == rest["Number"]:
+def find_meals():
+    get_user_location()
 
-                if str(rest["Price"]) == "0":
-                    price = random.randint(1, 7)
-                elif str(rest["Price"]) == "$":
-                    price = random.randint(7, 12)
-                elif str(rest["Price"]) == "$$":
-                    price = random.randint(12, 17)
-                elif str(rest["Price"]) == "$$$":
-                    price = random.randint(17, 22)
+    sender = window.sender()
+    content = str(combo_box.currentText())
+    if sender.text() == "Show":
+        if content == " ":
+            combo_box_menu.clear()
+            listWidget.clear()
 
-                cur.execute('INSERT INTO REST VALUES(?, ?, ?, ?, ?, ?);', (
-                rest["Name"], str(rest["Rating"]), str(rest["Latitude"]), str(rest["Longitude"]), str(price)), "Kebab")
-    con.commit()
+        session = get_session()
+        menu = session.query(Meal).filter(Meal.kitchen_type.has(type=content)).all()
+
+        for meal in menu:
+            combo_box_menu.addItem(meal.meal)
+
+        ukladT.addWidget(label_menu, 6, 0)
+        ukladT.addWidget(combo_box_menu, 7, 0)
+
+        combo_box.activated.connect(clear_menu)
+        combo_box_menu.activated.connect(show_restaurants)
 
 
-def find():
+def get_user_location():
     town = window.lineTown.text()
     street = window.lineStreet.text()
-
     url = 'https://maps.googleapis.com/maps/api/geocode/json?address=' + street + ',' + town + '+PL&key=AIzaSyCWdxt26U61v0z6X_1oRMoRO_42Fxz3hFo'
     req = requests.get(url)
     parsed = json.loads(req.text)
     results = parsed["results"]
-
+    lat, lng = (None, None)
     for par in results:
         geometry = par['geometry']
         location = geometry['location']
         lat = location['lat']
         lng = location['lng']
-
-    global id
-
-    nadawca = window.sender()
-    content = str(combo_box.currentText())
-    if nadawca.text() == "Show":
-        if content == " ":
-            combo_box_menu.clear()
-            listWidget.clear()
-
-        # contents = ["Kebab", "Chińska", "Polska", "Sushi", "Indyjska", "Pizza", "Burger", "Włoska", "Tajska"]
-
-        # if content in contents:
-        for rest in restaurants:
-            if content in rest["kitchens"]:
-                combo_box_menu.addItems(rest["menu"])
-
-        if content != " ":
-            id += 1
-            try:
-                cur.execute('INSERT INTO ZAMOWIENIE VALUES(?, ?, ?, ?, ?);', (id, content, lat, lng, 1))
-            except sqlite3.IntegrityError:
-                cur.execute('DELETE FROM ZAMOWIENIE')
-
-            con.commit()
-
-        ukladT.addWidget(label_menu, 6, 0)
-        ukladT.addWidget(combo_box_menu, 7, 0)
-
-        combo_box.activated.connect(clearMenu)
-        combo_box_menu.activated.connect(showRest)
+    return lat, lng
 
 
 label_kitchens = QLabel("Kuchnia: ")
@@ -175,8 +168,8 @@ ukladT.addWidget(button, 5, 5)
 ukladT.addWidget(label_rest, 8, 0)
 ukladT.addWidget(listWidget, 9, 0)
 
-listWidget.itemDoubleClicked.connect(Clicked)
-button.clicked.connect(find)
+listWidget.itemDoubleClicked.connect(make_order)
+button.clicked.connect(find_meals)
 
 # Only for debug
 window.lineTown.setText('Wrocław')
