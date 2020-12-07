@@ -1,12 +1,10 @@
-from controllers.db_connection import get_engine
-from sqlalchemy.orm import sessionmaker
-from db_objects.objects import Location
+from controllers.db_connection import get_session
 
-engine = get_engine()
+from db_objects.objects import Location, Restaurant
 
-# create a Session
-Session = sessionmaker(bind=engine)
-session = Session()
-
+session = get_session()
 locations = session.query(Location).order_by(Location.id).all()
-print(locations)
+print(locations[0].id)
+
+restaurants = session.query(Restaurant).order_by(Restaurant.id).all()
+print(restaurants[0].name)
