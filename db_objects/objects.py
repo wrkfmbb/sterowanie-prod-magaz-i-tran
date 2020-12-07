@@ -67,13 +67,3 @@ class ReservedTables(Base):
     restaurant_id = Column(Integer, ForeignKey('restaurants.id'))
 
     restaurant = relationship('Restaurant')
-
-
-class Menu(Base):
-    __tablename__ = 'menu'
-    id = Column(Integer, primary_key=True)
-    meal_id = Column(Integer, ForeignKey('meals.id'))
-    restaurant_id = Column(Integer, ForeignKey('restaurants.id'))
-
-    meal = relationship('Meal')
-    restaurant = relationship('Restaurant')

@@ -8,3 +8,8 @@ print(locations[0].id)
 
 restaurants = session.query(Restaurant).order_by(Restaurant.id).all()
 print(restaurants[0].name)
+
+location = Location(latitude=1.0, longitude=2.0)
+session.add(location)
+session.commit()
+print(location.id)
