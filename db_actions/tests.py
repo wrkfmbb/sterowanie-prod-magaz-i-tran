@@ -1,6 +1,6 @@
 from controllers.db_connection import get_session
 
-from db_objects.objects import Location, Restaurant
+from db_objects.objects import Location
 
 session = get_session()
 locations = session.query(Location).order_by(Location.id).all()
@@ -13,4 +13,3 @@ print(locations[0].id)
 # session.add(location)
 # session.commit()
 # print(location.id)
-

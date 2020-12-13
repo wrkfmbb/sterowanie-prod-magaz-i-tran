@@ -5,7 +5,6 @@ import sqlite3
 
 
 def get_engine():
-    # return create_engine('sqlite:///database/KLIENT_SERW.db')
     return create_engine('sqlite:///D:/Inne/Materialy/Magisterskie/2_Semestr/SPMiT/P/database/KLIENT_SERW.db')
 
 
