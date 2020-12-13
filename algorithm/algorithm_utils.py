@@ -1,14 +1,12 @@
 from queue import PriorityQueue
 from math import sqrt, pi, cos
 
-from controllers.db_connection import get_session
-from db_objects.objects import Order, Location
+from controllers.OrderController import OrderController
 
 
 def init_queue() -> PriorityQueue:
     user_reservation_queue = PriorityQueue()
-    session = get_session()
-    orders = session.query(Order).order_by(Order.id).all()
+    orders = OrderController.get_all()
     for i, order in enumerate(orders):
         # Adding orders instead users for more complex information (orders include users)
         user_reservation_queue.put((i, order))
