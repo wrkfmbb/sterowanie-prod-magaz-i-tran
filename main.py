@@ -12,8 +12,7 @@ from controllers.RestaurantController import RestaurantController
 from controllers.db_connection import get_session
 from db_objects.objects import Restaurant, Meal, ReservedTables, Location, Order
 
-#  Add posibility to reserve more than one table or delete this feature.
-
+# TODO Add posibility to reserve more than one table or delete this feature.
 
 App = QApplication(sys.argv)
 window = QWidget()
