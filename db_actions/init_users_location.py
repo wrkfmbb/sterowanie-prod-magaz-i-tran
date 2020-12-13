@@ -80,7 +80,7 @@ Plac Westerplatte Wrocław
 streets = streets.split('\n')
 streets = [name.split() for name in streets]
 streets = [street[:-1] for street in streets if len(street) == 2]
-streets = streets[:31]
+streets = streets[:30]
 
 session = get_session()
 
