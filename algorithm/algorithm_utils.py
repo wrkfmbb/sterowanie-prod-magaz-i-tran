@@ -22,6 +22,7 @@ def preview_queue(queue):
         priority, order = queue.get()
         queue_backup.append((priority, order))
         print(priority, order.user.username)
+    print('\n')
     for priority, order in queue_backup:
         queue.put((priority, order))
 
