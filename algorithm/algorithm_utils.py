@@ -6,7 +6,7 @@ from controllers.OrderController import OrderController
 
 def init_queue() -> PriorityQueue:
     user_reservation_queue = PriorityQueue()
-    orders = OrderController.get_all()
+    orders = OrderController().get_all()
     for i, order in enumerate(orders):
         # Adding orders instead users for more complex information (orders include users)
         user_reservation_queue.put((i, order))

@@ -6,10 +6,12 @@ import sys
 import requests
 import json
 from math import sqrt, pi, cos
+
+from controllers.OrderController import OrderController
+from controllers.RestaurantController import RestaurantController
 from controllers.db_connection import get_session
 from db_objects.objects import Restaurant, Meal, ReservedTables, Location, Order
 
-# TODO: there is only one user, should be more.
 #  Add posibility to reserve more than one table or delete this feature.
 
 
@@ -25,13 +27,18 @@ def make_order():
     restaurant_name = get_order_restaurant_name()
 
     if restaurant_name in listWidget.item(listWidget.currentRow()).text():
-        session = get_session()
-        restaurant = session.query(Restaurant).filter(Restaurant.name == restaurant_name).one()
-        modify_available_tables(restaurant, restaurant_name, session)
+        restaurant = RestaurantController().get_one_by_name(restaurant_name)
+
+        modify_available_tables(restaurant, restaurant_name)
 
         lat_user, lng_user = get_user_location()
-        location = save_user_location(lat_user, lng_user, session)
-        save_order(location, restaurant, session)
+        user_location = Location(latitude=lat_user, longitude=lng_user)
+        save_user_location(user_location)
+
+        # TODO: user_id is hardcoded change if there will be more users
+        # Temp controller instead static methods for auto closing session -
+        # i'm not sure it's necessary but it's safer
+        OrderController().add(1, user_location, restaurant)
 
         distance = calculate_distance(lat_user, lng_user, restaurant)
 
@@ -57,22 +64,15 @@ def calculate_distance(lat_user, lng_user, restaurant):
     return distance
 
 
-# TODO: user_id is hardcoded change if there will be more users
-def save_order(location, restaurant, session):
-    order = Order(nr_of_reservations=1, user_id=1, user_location_id=location.id,
-                  kitchen_type_id=restaurant.kitchen_type.id)
-    session.add(order)
-    session.commit()
-
-
-def save_user_location(lat_user, lng_user, session):
-    location = Location(latitude=lat_user, longitude=lng_user)
+def save_user_location(location):
+    session = get_session()
     session.add(location)
     session.commit()
     return location
 
 
-def modify_available_tables(restaurant, restaurant_name, session):
+def modify_available_tables(restaurant, restaurant_name):
+    session = get_session()
     reserved_tables = session.query(ReservedTables) \
         .filter(ReservedTables.restaurant.has(name=restaurant_name)).one()
     nr_of_all_tables = restaurant.nr_of_tables

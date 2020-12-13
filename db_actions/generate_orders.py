@@ -3,7 +3,6 @@ from db_objects.objects import Order, User, Location
 
 session = get_session()
 
-# TODO: restaurant location is the same as user location -> generate some new locations for users
 users = session.query(User).order_by(User.id).all()
 users_id = [user.id for user in users]
 

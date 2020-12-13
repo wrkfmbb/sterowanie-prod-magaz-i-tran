@@ -6,7 +6,8 @@ preview_queue(user_reservation_queue)
 
 # Example of calculating distance from queue location and available restaurants location
 _, order = user_reservation_queue.get()
-restaurants = RestaurantController.get_matched_by_kitchen_type_id(order.kitchen_type_id)
+# Temp controller instead static methods for auto closing session - i'm not sure is necessary but it's safer
+restaurants = RestaurantController().get_matched_by_kitchen_type_id(order.kitchen_type_id)
 
 for restaurant in restaurants:
     print(check_distance(order.user_location, restaurant.location))
