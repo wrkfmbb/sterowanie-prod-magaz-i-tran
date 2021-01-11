@@ -2,14 +2,25 @@ from queue import PriorityQueue
 from math import sqrt, pi, cos
 from random import randrange
 
+from prodict import Prodict
+
 from controllers.OrderController import OrderController
+from controllers.RestaurantController import RestaurantController
 from controllers.db_connection import get_session
 from db_objects.objects import ReservedTables
 
 
 def init_queue() -> PriorityQueue:
     user_reservation_queue = PriorityQueue()
-    orders = OrderController().get_all()
+
+    orders = []
+    for i, order in enumerate(OrderController().get_all()):
+        light_order = order.__dict__
+        light_order['user_location'] = order.user_location.__dict__
+        light_order['kitchen_type'] = order.kitchen_type.__dict__
+        light_order = Prodict().from_dict(light_order)
+        orders.append(light_order)
+
     for i, order in enumerate(orders):
         # Adding orders instead users for more complex information (orders include users)
         user_reservation_queue.put((i, order))
@@ -76,15 +87,30 @@ def swap_elements(queue: PriorityQueue, i1: int, i2: int):
     return queue
 
 
+def convert_restaurants_to_dict():
+    restaurants = []
+    for restaurant in RestaurantController().get_all():
+        rest = restaurant.__dict__
+        rest['location'] = restaurant.location.__dict__
+        rest['kitchen_type'] = restaurant.kitchen_type.__dict__
+        rest = Prodict().from_dict(rest)
+        restaurants.append(rest)
+    return restaurants
+
+
 if __name__ == "__main__":
-    print(get_indexes_to_swap(10))
-    q = PriorityQueue()
-    q.put((0, 'a'))
-    q.put((1, 'b'))
-    q.put((2, 'c'))
-    for i, j in q.queue:
-        print(f"({i}, {j})", end=", ")
-    print('')
-    q = swap_elements(q, 0, 2)
-    for i, j in q.queue:
-        print(f"({i}, {j})", end=", ")
+    # print(get_indexes_to_swap(10))
+    # q = PriorityQueue()
+    # q.put((0, 'a'))
+    # q.put((1, 'b'))
+    # q.put((2, 'c'))
+    # for i, j in q.queue:
+    #     print(f"({i}, {j})", end=", ")
+    # print('')
+    # q = swap_elements(q, 0, 2)
+    # for i, j in q.queue:
+    #     print(f"({i}, {j})", end=", ")
+
+    import pprint
+    q = init_queue()
+    pprint.pprint(q.queue[0])

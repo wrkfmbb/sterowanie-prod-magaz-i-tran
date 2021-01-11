@@ -13,3 +13,7 @@ class RestaurantController:
     def get_one_by_name(self, restaurant_name):
         restaurant = self.__session.query(Restaurant).filter(Restaurant.name == restaurant_name).one()
         return restaurant
+
+    def get_all(self):
+        restaurants = self.__session.query(Restaurant).all()
+        return restaurants

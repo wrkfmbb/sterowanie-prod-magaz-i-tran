@@ -3,3 +3,4 @@ requests
 PyQt5-stubs
 SQLAlchemy
 random-username
+prodict

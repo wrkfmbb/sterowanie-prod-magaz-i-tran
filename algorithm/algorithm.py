@@ -3,7 +3,7 @@ from queue import PriorityQueue
 import random
 
 from algorithm_utils import init_queue, preview_queue, check_distance, reserve_table, copy_queue, get_indexes_to_swap, \
-    swap_elements
+    swap_elements, convert_restaurants_to_dict
 from controllers.RestaurantController import RestaurantController
 
 # user_reservation_queue = init_queue()
@@ -27,13 +27,17 @@ class Algorithm:
         self.loss = 0
         self.isOptimal = True
         self.__session = get_session()
+        self.__restaurants = convert_restaurants_to_dict()
+
+    def __get_restaurants_by_kitchen_type_id(self, id):
+        return [restaurant for restaurant in self.__restaurants if restaurant.kitchen_type.id == id]
 
     def assign_restaurants(self, queue):
-        restaurant_controller = RestaurantController()
+        # restaurant_controller = RestaurantController()
         distances = []
 
         for _, order in queue.queue:
-            restaurants = restaurant_controller.get_matched_by_kitchen_type_id(order.kitchen_type_id)
+            restaurants = self.__get_restaurants_by_kitchen_type_id(order.kitchen_type_id)
             min_distance, nearest_restaurant_index = self.__find_nearest_restaurant(order, restaurants)
 
             reserve_table(restaurants[nearest_restaurant_index], self.__session)
