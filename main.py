@@ -7,6 +7,7 @@ import requests
 import json
 from math import sqrt, pi, cos
 
+from algorithm.algorithm import Algorithm
 from controllers.OrderController import OrderController
 from controllers.RestaurantController import RestaurantController
 from controllers.db_connection import get_session
@@ -82,21 +83,21 @@ def modify_available_tables(restaurant, restaurant_name):
         session.commit()
 
 
-def show_restaurants():
-    listWidget.clear()
-    content = str(combo_box.currentText())
-    session = get_session()
-
-    restaurants = session.query(Restaurant).filter(Restaurant.kitchen_type.has(type=content)).all()
-    for rest in restaurants:
-        reserved_tables = session.query(ReservedTables).filter(ReservedTables.restaurant.has(name=rest.name)).one()
-
-        nr_of_all_tables = rest.nr_of_tables
-        nr_of_reserved_tables = reserved_tables.total_nr_of_reservations
-
-        listWidget.addItem(f'Nazwa: {rest.name}\n' +
-                           f'Ocena: {str(rest.rate)}\n' +
-                           f'Ilość wolnych stolików: {str(nr_of_all_tables - nr_of_reserved_tables)}')
+# def show_restaurants():
+#     listWidget.clear()
+#     content = str(combo_box.currentText())
+#     session = get_session()
+#
+#     restaurants = session.query(Restaurant).filter(Restaurant.kitchen_type.has(type=content)).all()
+#     for rest in restaurants:
+#         reserved_tables = session.query(ReservedTables).filter(ReservedTables.restaurant.has(name=rest.name)).one()
+#
+#         nr_of_all_tables = rest.nr_of_tables
+#         nr_of_reserved_tables = reserved_tables.total_nr_of_reservations
+#
+#         listWidget.addItem(f'Nazwa: {rest.name}\n' +
+#                            f'Ocena: {str(rest.rate)}\n' +
+#                            f'Ilość wolnych stolików: {str(nr_of_all_tables - nr_of_reserved_tables)}')
 
 
 def find_meals():
@@ -119,7 +120,8 @@ def find_meals():
         ukladT.addWidget(combo_box_menu, 7, 0)
 
         combo_box.activated.connect(clear_menu)
-        combo_box_menu.activated.connect(show_restaurants)
+        # combo_box_menu.activated.connect(show_restaurants)
+        combo_box_menu.activated.connect(make_order)
 
 
 def get_user_location():
@@ -136,6 +138,10 @@ def get_user_location():
         lat = location['lat']
         lng = location['lng']
     return lat, lng
+
+
+def start_algorithm():
+    algorithm = Algorithm()
 
 
 label_kitchens = QLabel("Kuchnia: ")
@@ -155,6 +161,8 @@ combo_box.addItems(geek_list)
 listWidget.resize(30, 12)
 button = QPushButton("Show")
 button.setStyleSheet("background-color: lightblue")
+button_start = QPushButton("Start algorithm")
+button_start.setStyleSheet("background-color: lightblue")
 
 ukladT = QGridLayout()
 ukladT.addWidget(label_town, 0, 0)
@@ -166,9 +174,11 @@ ukladT.addWidget(combo_box, 5, 0)
 ukladT.addWidget(button, 5, 5)
 ukladT.addWidget(label_rest, 8, 0)
 ukladT.addWidget(listWidget, 9, 0)
+ukladT.addWidget(button_start, 10, 0)
 
 listWidget.itemDoubleClicked.connect(make_order)
 button.clicked.connect(find_meals)
+button_start.clicked.connect(start_algorithm)
 
 # Only for debug
 window.lineTown.setText('Wrocław')
