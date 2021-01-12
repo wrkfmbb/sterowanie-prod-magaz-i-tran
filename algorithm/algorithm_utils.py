@@ -1,9 +1,7 @@
 from queue import PriorityQueue
 from math import sqrt, pi, cos
 from random import randrange
-
 from prodict import Prodict
-
 from controllers.OrderController import OrderController
 from controllers.RestaurantController import RestaurantController
 from controllers.db_connection import get_session
@@ -11,17 +9,20 @@ from db_objects.objects import ReservedTables
 
 
 def init_queue() -> PriorityQueue:
-    user_reservation_queue = PriorityQueue()
-
+    # temp list od dictonaries
     orders = []
     for i, order in enumerate(OrderController().get_all()):
         light_order = order.__dict__
         light_order['user_location'] = order.user_location.__dict__
         light_order['kitchen_type'] = order.kitchen_type.__dict__
         light_order['user'] = order.user.__dict__
+        # convert dict to prodict, prodict gives dot notation. Easier than change all sql objects acces code
+        # so instead dict['key'] we can use dict.key
         light_order = Prodict().from_dict(light_order)
         orders.append(light_order)
 
+    # convert list to Priority Queue
+    user_reservation_queue = PriorityQueue()
     for i, order in enumerate(orders):
         # Adding orders instead users for more complex information (orders include users)
         user_reservation_queue.put((i, order))
@@ -53,6 +54,7 @@ def check_distance(user_location: Prodict, restaurant_location: Prodict) -> floa
 
 def get_indexes_to_swap(queue_length: int) -> (int, int):
     i1, i2 = 0, 0
+    # can't swap the same element
     while i1 == i2:
         i1 = randrange(queue_length)
         i2 = randrange(queue_length)
@@ -60,10 +62,11 @@ def get_indexes_to_swap(queue_length: int) -> (int, int):
 
 
 def swap_elements(queue: PriorityQueue, i1: int, i2: int) -> PriorityQueue:
-    list_q = [list(element) for element in queue.queue]
+    list_q = [list(element) for element in queue.queue]  # unlock tuples to modify priority
     list_q[i1], list_q[i2] = list_q[i2], list_q[i1]
     list_q[i1][0], list_q[i2][0] = i1, i2
     list_q = [tuple(element) for element in list_q]
+
     queue = PriorityQueue()
     for element in list_q:
         queue.put(element)
