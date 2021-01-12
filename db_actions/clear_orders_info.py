@@ -14,7 +14,7 @@ for tables in reserved_tables:
     tables.total_nr_of_reservations = 0
 session.commit()
 
-# delete users locations
-restaurant = session.query(Restaurant).order_by(desc(Restaurant.id)).first()
-session.query(Location).filter(Location.id > restaurant.id).delete()
-session.commit()
+# # delete users locations
+# restaurant = session.query(Restaurant).order_by(desc(Restaurant.id)).first()
+# session.query(Location).filter(Location.id > restaurant.id).delete()
+# session.commit()

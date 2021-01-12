@@ -18,6 +18,7 @@ def init_queue() -> PriorityQueue:
         light_order = order.__dict__
         light_order['user_location'] = order.user_location.__dict__
         light_order['kitchen_type'] = order.kitchen_type.__dict__
+        light_order['user'] = order.user.__dict__
         light_order = Prodict().from_dict(light_order)
         orders.append(light_order)
 
@@ -28,25 +29,19 @@ def init_queue() -> PriorityQueue:
 
 
 # TODO: it's only example. Choose desired information
-def preview_queue(queue):
-    queue_backup = []
-    while not queue.empty():
-        priority, order = queue.get()
-        queue_backup.append((priority, order))
+def preview_queue(queue: PriorityQueue):
+    for priority, order in queue.queue:
         print(priority, order.user.username)
-    print('\n')
-    for priority, order in queue_backup:
-        queue.put((priority, order))
 
 
-def copy_queue(q):
+def copy_queue(q: PriorityQueue) -> PriorityQueue:
     queue = PriorityQueue()
     for element in q.queue:
         queue.put(element)
     return queue
 
 
-def check_distance(user_location, restaurant_location) -> float:
+def check_distance(user_location: Prodict, restaurant_location: Prodict) -> float:
     restaurant_lat = restaurant_location.latitude
     restaurant_lng = restaurant_location.longitude
     user_lat = user_location.latitude
@@ -56,19 +51,7 @@ def check_distance(user_location, restaurant_location) -> float:
            (40075.704 / 360)
 
 
-def reserve_table(restaurant, session):
-    # session = get_session()
-    reserved_tables = session.query(ReservedTables) \
-        .filter(ReservedTables.restaurant.has(name=restaurant.name)).one()
-    nr_of_all_tables = restaurant.nr_of_tables
-    nr_of_reserved_tables = reserved_tables.total_nr_of_reservations
-    # TODO: if there will be posibility to reserve more than 1 table then change condition and increment value
-    if nr_of_all_tables - nr_of_reserved_tables > 0:
-        reserved_tables.total_nr_of_reservations += 1
-        session.commit()
-
-
-def get_indexes_to_swap(queue_length: int):
+def get_indexes_to_swap(queue_length: int) -> (int, int):
     i1, i2 = 0, 0
     while i1 == i2:
         i1 = randrange(queue_length)
@@ -76,7 +59,7 @@ def get_indexes_to_swap(queue_length: int):
     return i1, i2
 
 
-def swap_elements(queue: PriorityQueue, i1: int, i2: int):
+def swap_elements(queue: PriorityQueue, i1: int, i2: int) -> PriorityQueue:
     list_q = [list(element) for element in queue.queue]
     list_q[i1], list_q[i2] = list_q[i2], list_q[i1]
     list_q[i1][0], list_q[i2][0] = i1, i2
@@ -87,7 +70,7 @@ def swap_elements(queue: PriorityQueue, i1: int, i2: int):
     return queue
 
 
-def convert_restaurants_to_dict():
+def convert_restaurants_to_dict() -> list:
     restaurants = []
     for restaurant in RestaurantController().get_all():
         rest = restaurant.__dict__
@@ -96,6 +79,22 @@ def convert_restaurants_to_dict():
         rest = Prodict().from_dict(rest)
         restaurants.append(rest)
     return restaurants
+
+
+def convert_reservations_to_dict() -> list:
+    reservations = []
+    session = get_session()
+    reserved_tables = session.query(ReservedTables).all()
+    for reservation in reserved_tables:
+        res = reservation.__dict__
+        res = Prodict().from_dict(res)
+        reservations.append(res)
+    return reservations
+
+
+def print_reservations(reservations: list):
+    for i, reservation in enumerate(reservations):
+        print(i, reservation.total_nr_of_reservations)
 
 
 if __name__ == "__main__":
@@ -114,3 +113,4 @@ if __name__ == "__main__":
     import pprint
     q = init_queue()
     pprint.pprint(q.queue[0])
+    preview_queue(q)
