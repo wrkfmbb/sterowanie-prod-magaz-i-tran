@@ -10,6 +10,8 @@ class Algorithm:
     def __init__(self):
         self.user_orders_queue = init_queue()
         self.loss = 0
+        self.minimal_loss = 99999999999
+        self.best_queue = copy_queue(self.user_orders_queue)
         self.isOptimal = True
         self.__restaurants = convert_restaurants_to_dict()
         self.__reservations = convert_reservations_to_dict()
@@ -93,6 +95,10 @@ class Algorithm:
 
             # algorytm - losowanie prawdopodobieństa odrzucenia wyniku gdy ten jest gorszy - odwrócona logika algorytmu
             # efekt ten sam
+            if self.loss < self.minimal_loss:
+                self.minimal_loss = self.loss
+                self.best_queue = copy_queue(queue)
+
             if previous_loss < self.loss:
                 accept_probability = exp((previous_loss - self.loss) / temp)
                 if random.random() < accept_probability:
@@ -100,7 +106,7 @@ class Algorithm:
 
             temp *= cooling_factor
             self.__reset_reservations()  # zerowanie rezerwacji po działanu algorytmu
-        self.user_orders_queue = queue  # ostateczna kolejka
+        self.user_orders_queue = queue  # kolejka optymalizowana
         return self.loss
 
     def __reset_reservations(self):
@@ -109,6 +115,9 @@ class Algorithm:
 
     def get_queue_by_user_id(self):
         return [order.user_id for _, order in self.user_orders_queue.queue]
+
+    def get_best_solution_by_user_id(self):
+        return [order.user_id for _, order in self.best_queue.queue]
 
 
 if __name__ == '__main__':
@@ -119,5 +128,6 @@ if __name__ == '__main__':
     print(f"Initial loss: {alg.loss}, is optimal: {alg.isOptimal}")
     print(f"order {alg.get_queue_by_user_id()}")
     alg.start()
-    print(f"end loss: {alg.loss}")
-    print(f"order {alg.get_queue_by_user_id()}")
+    print(f"end loss: {alg.loss}, minimal_loss {alg.minimal_loss}")
+    print(f"end order {alg.get_queue_by_user_id()}")
+    print(f"best order {alg.get_best_solution_by_user_id()}")
